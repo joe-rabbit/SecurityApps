@@ -189,7 +189,7 @@ viewFinder = findViewById(R.id.viewFinder)
             .build()
 
         val request = Request.Builder()
-            .url("http://192.168.1.11:5000/upload_images_illegal_access") // Replace with your server URL
+            .url("http://192.168.10.217:5000/upload_images_illegal_access") // Replace with your server URL
             .post(requestBody)
             .build()
 
